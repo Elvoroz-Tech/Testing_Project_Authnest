@@ -1,0 +1,25 @@
+{
+  "name": "testing-backend",
+  "version": "1.0.0",
+  "description": "It is only For testing of Login And Authentication System.",
+  "license": "ISC",
+  "author": "shivam",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node --test test/authnestSession.test.js"
+  },
+  "dependencies": {
+    "@elvoroz/authnest-server": "^1.2.2",
+    "axios": "^1.13.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0"
+  }
+}
